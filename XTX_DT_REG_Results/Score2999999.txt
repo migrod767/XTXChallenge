@@ -1,0 +1,6 @@
+Desicion Tree Model SkLearn 
+ Time spend: 0:04:19.400325
+ Model Score: 0.01794490919243974
+ Split Size: 0.999999
+ N: 2999999
+ 
