@@ -101,7 +101,7 @@ def numpy_predictor():
     load_Regresor = pickle.load(open(modelFile, 'rb'))
 
     N = 5000
-    filepath = 'Data//SampleXTXData' + str(N) + '.csv'
+    filepath = "Data//XTXData{}K.csv".format(str(N/1000))
     dataset = pd.read_csv(filepath)
     dataset.fillna(0, inplace=True)
 
@@ -148,7 +148,7 @@ def main_predictor():
     load_Regresor = pickle.load(open(modelFile, 'rb'))
 
     N = 1000000
-    filepath = 'Data//SampleXTXData' + str(N) + '.csv'
+    filepath = "Data//XTXData{}K.csv".format(str(N/1000))
     dataset = pd.read_csv(filepath)
     dataset.fillna(0, inplace=True)
 

@@ -14,7 +14,7 @@ startTime = datetime.now()
 def load_data():
     global N, splitSize, startTime, train_dataset, features, labels
     # Read in data as a dataframe
-    filepath = "Data//SampleXTXData{0}.csv".format(N)
+    filepath = "Data//XTXData{}K.csv".format(str(N/1000))
     dataset = pd.read_csv(filepath)
     dataset.fillna(0, inplace=True)
     print(dataset.head())

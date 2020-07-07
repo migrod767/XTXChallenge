@@ -34,4 +34,4 @@ def Data_Sample_split(N):
 
 
 load_de_Monster()
-Data_Sample_split(1000000)
+Data_Sample_split(2999999)
